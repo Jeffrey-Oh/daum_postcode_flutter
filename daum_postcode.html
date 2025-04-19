@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>주소 검색</title>
     <style>
-      html,
-      body {
+      html, body {
         margin: 0;
         padding: 0;
         height: 100%;
         width: 100%;
       }
-
+    
       #full-size {
         height: 100%;
         width: 100%;
+        padding-top: env(safe-area-inset-top);
+        box-sizing: border-box;
         display: none;
         overflow: hidden;
       }
